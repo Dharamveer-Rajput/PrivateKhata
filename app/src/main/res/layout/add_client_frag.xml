@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4D1CE">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        >
+
+        <EditText
+            android:id="@+id/edClientName"
+            android:padding="@dimen/image_size5"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:hint="Name of Client"
+            android:background="@drawable/edit_text_bg"/>
+
+
+        <EditText
+            android:id="@+id/edPhone"
+            android:padding="@dimen/image_size5"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:hint="Phone No"
+            android:background="@drawable/edit_text_bg"/>
+
+        <EditText
+            android:id="@+id/edAadhaarNo"
+            android:padding="@dimen/image_size5"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:hint="Aadhaar Card No"
+            android:background="@drawable/edit_text_bg"/>
+
+
+        <EditText
+            android:id="@+id/edEmailAddress"
+            android:padding="@dimen/image_size5"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email Address"
+            android:background="@drawable/edit_text_bg"/>
+
+        <EditText
+            android:id="@+id/edBussiAddress"
+            android:padding="@dimen/image_size5"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:hint="Address"
+            android:background="@drawable/edit_text_bg"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSubmitData"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_background"
+        android:layout_marginBottom="@dimen/image_size50"/>
+
+
+
+</RelativeLayout>

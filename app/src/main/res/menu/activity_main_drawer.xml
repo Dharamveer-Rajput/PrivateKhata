@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_feature"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/add_payment"
+            android:icon="@drawable/addpayment"
+            android:title="Add Payment" />
+
+        <item
+            android:id="@+id/show_payments"
+            android:icon="@drawable/homecolornavigation"
+            android:title="Show Payments" />
+
+        <item
+            android:id="@+id/account_details"
+            android:icon="@drawable/usercolornavigation"
+            android:title="Account Details"
+            />
+
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/group_settings"
+
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/add_client"
+            android:icon="@drawable/users"
+            android:title="Add Client"
+            />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit"
+            android:title="Log Out"
+            />
+
+    </group>
+
+
+</menu>

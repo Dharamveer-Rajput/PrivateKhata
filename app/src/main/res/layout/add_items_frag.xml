@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbg"
+    android:focusableInTouchMode="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/image_size50"
+
+        >
+
+
+        <EditText
+            android:id="@+id/edDatePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:layout_margin="@dimen/image_size5"
+            android:hint="Select Date"
+            android:textSize="15sp"
+            android:ems="10"
+            android:focusable="false"
+            android:padding="@dimen/image_size5"
+            />
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/image_size5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:prompt="@string/defaultText"
+            >
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:prompt="@string/defaultText"
+                android:layout_margin="@dimen/image_size5"
+                android:background="@android:drawable/btn_dropdown"/>
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edAmtReceived"
+            android:padding="@dimen/image_size5"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_margin="@dimen/image_size5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:hint="Enter Amount Received"
+            android:background="@drawable/edit_text_bg"/>
+
+        <EditText
+            android:id="@+id/edAmtPending"
+            android:padding="@dimen/image_size5"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_margin="@dimen/image_size5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:hint="Enter Amount Pending"
+            android:background="@drawable/edit_text_bg"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddPayment"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Add Payment"
+        android:layout_marginBottom="@dimen/image_size50"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_background"/>
+
+
+
+</RelativeLayout>

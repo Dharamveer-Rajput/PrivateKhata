@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="btnColor">#13abe6</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+
+    <color name="light_black">#696969</color>
+
+    <color name="cardblue">#3399ff</color>
+    <color name="buttonBlue">#07C2B4</color>
+
+    <color name="orangered">#FF4500</color>
+
+
+    <color name="green">#4ab019</color>
+    <color name="red">#f4414a</color>
+    <color name="darkblue">#419af4</color>
+    <color name="light_grey">#afbed6</color>
+
+    <color name="buttoncolor">#b33426</color>
+    <color name="orange">#FFA500</color>
+
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="dark_grey">#9E9E9E</color>
+    <color name="dialoglinearlayout">#ecf0f1</color>
+    <color name="exportbtn">#30AAFE</color>
+
+    <color name="blue">#00F</color>
+    <color name="yellow">#FF0</color>
+
+    <color name="button_blue_bg">#003c58</color>
+
+    <color name="lime">#f9fbe7</color>
+    <color name="footer_icon_on_color">#00a3ff</color>
+    <color name="footer_icon_off_color">#f5f5f5</color>
+    <color name="Bubbles">#E7FEFF</color>
+
+    <color name="textSelectedColor">#0cacea</color>
+
+    <color name="textUnselectedColor">#afafaf</color>
+
+    <color name="toolbarcolor">#003c58</color>
+    <color name="babyBlue">#89CFF0</color>
+    <color name="profilescreenTextbg">#f5f5f5</color>
+
+    <color name="greenHome">#4ABB14</color>
+    <color name="redDark">#DF1138</color>
+    <color name="lightgreen">#055762</color>
+    <color name="lightpink">#703D52</color>
+    <color name="blueHome">#001D2F</color>
+
+
+    <color name="fragmentbg">#f8f6f7</color>
+    <color name="edBackgroundColor">#f1f1f1</color>
+    <color name="circleOffColor">#055762</color>
+
+</resources>

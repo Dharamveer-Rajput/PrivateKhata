@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "878052377986",
+    "project_id": "private-khata"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878052377986:android:fa027cd2dfcc7e94",
+        "android_client_info": {
+          "package_name": "privatekhata.privatekhata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878052377986-182i1s18pb03mt93brr7ncf073ar00aq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "privatekhata.privatekhata",
+            "certificate_hash": "ac4ead8bc2f98e4717d9757d0b08a5feb349f1d1"
+          }
+        },
+        {
+          "client_id": "878052377986-bf4u9elulcnkcv07shh980ov6v5rtuls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQxZduDDoIEJfYG9Qd4cFtpIHvkFD9ZnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
